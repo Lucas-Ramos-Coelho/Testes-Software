@@ -166,14 +166,13 @@ h2 {
     gap: 1rem;
 }
 
-/* Ajuste completo para renderizar imagens reais adequadamente */
 .service-card {
     display: flex;
     flex-direction: column;
     border-radius: 8px;
     border: 1px solid var(--border);
     background: #ffffff;
-    overflow: hidden; /* Corta os cantos da imagem seguindo o border-radius */
+    overflow: hidden;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -184,8 +183,8 @@ h2 {
 
 .service-img {
     width: 100%;
-    height: 140px; /* Altura ideal de exibição */
-    object-fit: cover; /* Recorta mantendo a proporção correta */
+    height: 140px;
+    object-fit: cover;
     display: block;
 }
 
@@ -200,7 +199,7 @@ h2 {
 
 .prices-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); /* Ajustado para encaixar melhor os 5 itens */
     gap: 1rem;
 }
 
