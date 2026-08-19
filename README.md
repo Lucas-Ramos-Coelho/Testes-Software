@@ -1,1 +1,1 @@
-Página Incial
+Página Home com 3 cards que levam a sites diferentes, trabalho em grupo focado na exemplificação do uso do git.
