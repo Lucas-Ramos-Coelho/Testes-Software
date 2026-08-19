@@ -8,9 +8,22 @@
 </head>
 <body>
 	<header>
-		<h1>Barbearia Corte Fino</h1>
-		<p>Tradição e estilo para o seu visual</p>
+		<div class="container header-inner">
+			<img src="images/logo.svg" alt="Logo Corte Fino" class="logo">
+			<div class="header-text">
+				<h1>Barbearia Corte Fino</h1>
+				<p>Tradição e estilo para o seu visual</p>
+			</div>
+		</div>
 	</header>
+
+	<section class="hero">
+		<div class="container">
+			<h2>Bem-vindo à nossa barbearia</h2>
+			<p>Cortes com precisão, atendimento cordial e ambiente agradável.</p>
+			<a class="btn" href="#agendamento">Agende agora</a>
+		</div>
+	</section>
 
 	<main>
 		<section id="sobre">
@@ -20,12 +33,24 @@
 
 		<section id="servicos">
 			<h2>Serviços</h2>
-			<ul>
-				<li>Corte masculino</li>
-				<li>Barba e acabamento</li>
-				<li>Corte infantil</li>
-				<li>Design de sobrancelha</li>
-			</ul>
+			<div class="services-grid">
+				<article class="service-card">
+					<img src="images/barber.svg" alt="Corte masculino" class="service-img">
+					<h3>Corte masculino</h3>
+				</article>
+				<article class="service-card">
+					<img src="images/barber.svg" alt="Barba" class="service-img">
+					<h3>Barba e acabamento</h3>
+				</article>
+				<article class="service-card">
+					<img src="images/barber.svg" alt="Corte infantil" class="service-img">
+					<h3>Corte infantil</h3>
+				</article>
+				<article class="service-card">
+					<img src="images/barber.svg" alt="Sobrancelha" class="service-img">
+					<h3>Design de sobrancelha</h3>
+				</article>
+			</div>
 		</section>
 
 		<section id="precos">
